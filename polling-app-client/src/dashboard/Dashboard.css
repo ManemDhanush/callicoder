@@ -1,0 +1,43 @@
+.app-sider {
+    position: sticky;
+    left: 0;
+    width: 20% !important;
+    min-width: 20% !important;
+    max-width: 20% !important;
+    min-height: 100vh;
+    box-shadow: 0 2px 8px #f0f1f2;
+    background: #e6f7ff !important;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:first-child{
+    margin: 80px 10px 10px 10px !important;
+}
+
+.card {
+    background-color: white;
+    max-width: 500px;
+    margin: 15px 10px 15px 10px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.title {
+    font-size: 50px;
+    margin-block-start: 5px !important;
+    margin-block-end: 5px !important;
+}
+
+.desc {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+@media (max-width:800px) {
+    .app-sider {
+        display: none;
+    }
+}

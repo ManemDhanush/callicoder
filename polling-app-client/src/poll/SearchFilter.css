@@ -1,0 +1,45 @@
+.filter-form {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+   display: inline-block; 
+   text-align: center;
+   text-decoration: none;
+   cursor: pointer;
+   font-size: 16px;
+   width: 40%;
+   margin: 5px 0;
+   background-color: #6D6D6D;
+}
+
+input {
+    margin: 5px 0
+}
+
+input[type=text] {
+    padding: 8px 15px;
+    font-size: medium;
+}
+
+.filter-keyword {
+    margin-top: 10px;
+}
+
+.form-control {
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.1;
+    padding-right: 10px;
+}
+
+.submit {
+    margin-top: 15px;
+    background-color: #008CBA;
+}
+
+.radio-button {
+    margin-right: 1px;
+}
